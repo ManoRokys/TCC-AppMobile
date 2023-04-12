@@ -67,7 +67,16 @@ return(
            <Text style={{fontSize: 27, marginLeft:5}}>R$ 3,69</Text>
            </TouchableOpacity>
            </TouchableOpacity>
-          
+           <TouchableOpacity
+           style={styles.caixa}
+           >
+            <Image source={require('../../../assets/MONSTERS.png')} style={{width: 80, height:140,marginLeft:15}} resizeMode='contain'></Image>
+            <TouchableOpacity>
+           <Text style={styles.textocaixa}>Monster Energy Juice Khaos 473ml</Text>
+           <Text style={{fontSize: 27, marginLeft:5}}>R$ 8,99</Text>
+           </TouchableOpacity>
+           </TouchableOpacity>
+
         </View>
     </SafeAreaView>
    </ScrollView>
