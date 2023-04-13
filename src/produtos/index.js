@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Alert, Modal,StyleSheet, Text, View, SafeAreaView, Image, Animated,Picker, TouchableOpacity} from 'react-native';
+import {Alert,StyleSheet, Text, View, SafeAreaView, Image, Animated,Picker, TouchableOpacity} from 'react-native';
 import { FlatList, ScrollView } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 import ListItem from '../ListItem';
@@ -8,7 +8,7 @@ import seta from '../../assets/Seta.png';
 
 export default function Usuario({route}){
    const navigation = useNavigation();
-   const [modalVisible, setModalVisible] = useState(false);
+
    
 return(
     <ScrollView>
